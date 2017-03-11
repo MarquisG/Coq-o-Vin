@@ -24,6 +24,13 @@ body a{
 	-o-transition:0.5s all;
 	-ms-transition:0.5s all;
 }
+
+.top{
+    width: 100%;
+    padding: 0% 20%;
+    background-color: #640909;
+    padding-top: 1em;
+}
 .banner {
 	background: url(../images/vino.jpg) no-repeat center top;
 	background-size: cover;
@@ -32,7 +39,7 @@ body a{
 	-o-background-size: cover;
 	min-height:800px;
 	text-align: center;
-	padding-top:1em;
+	padding-top:0em;
 }
 .header_top_left{
 	float:left;
@@ -1058,7 +1065,7 @@ ul.social li a i.tw{
 	-o-background-size: cover;
 	min-height:225px;
 	text-align: center;
-	padding-top: 3em;
+	padding-top: 1em;
 }
 .sidebar_men {
 	margin-right: 1em;
@@ -2149,7 +2156,7 @@ ul.content-home li .item-html button {
 }  
 .banner {
 	min-height:600px;
-	padding-top: 2em;
+	padding-top: 0em;
 }
 .field_content {
 	top: 12em;
@@ -2558,7 +2565,7 @@ i.user {
 @media (max-width:375px){
 .banner {
 	min-height:200px;
-	padding-top:1em;
+	padding-top:0em;
 }
 .header_top_left {
   float: none;
