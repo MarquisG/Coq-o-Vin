@@ -24,13 +24,6 @@ body a{
 	-o-transition:0.5s all;
 	-ms-transition:0.5s all;
 }
-
-.top{
-    width: 100%;
-    padding: 0% 20%;
-    background-color: #640909;
-    padding-top: 1em;
-}
 .banner {
 	background: url(../images/vino.jpg) no-repeat center top;
 	background-size: cover;
@@ -39,7 +32,7 @@ body a{
 	-o-background-size: cover;
 	min-height:800px;
 	text-align: center;
-	padding-top:0em;
+	padding-top:1em;
 }
 .header_top_left{
 	float:left;
@@ -266,6 +259,7 @@ p.empty a {
 }
 ul.header_user_info {
 	float: left;
+	border-right: 1px solid #555;
 	width:50%;
 	padding:0;
 	min-height: 30px;
@@ -797,7 +791,7 @@ a.create {
   -moz-border-radius:4px;
   -ms-border-radius:4px;
 }
-a.create:hover, .account-top input[type="submit"]:hover, .register-but input[type="submit"]:hover{
+a.create:hover, .account-top input[type="submit"]:hover, .register-but form input[type="submit"]:hover{
   background: #000;
   color:#fff;
 }
@@ -847,7 +841,7 @@ a.create:hover, .account-top input[type="submit"]:hover, .register-but input[typ
 	display: block;
 	text-transform: uppercase;
 }
-.register-top-grid input, .register-bottom-grid input[type="password"] {
+.register-top-grid input[type="text"], .register-bottom-grid input[type="password"] {
 	border: 1px solid #EEE;
 	outline-color:#FF5B36;
 	width: 96%;
@@ -924,7 +918,7 @@ a.create:hover, .account-top input[type="submit"]:hover, .register-but input[typ
 .register-but{
 	margin-top:1em;
 }
-.register-but input[type="submit"] {
+.register-but form input[type="submit"] {
 	background:#F9D9BE;
 	color: #000;
 	font-size:1em;
@@ -1064,7 +1058,7 @@ ul.social li a i.tw{
 	-o-background-size: cover;
 	min-height:225px;
 	text-align: center;
-	padding-top: 1em;
+	padding-top: 3em;
 }
 .sidebar_men {
 	margin-right: 1em;
@@ -2155,7 +2149,7 @@ ul.content-home li .item-html button {
 }  
 .banner {
 	min-height:600px;
-	padding-top: 0em;
+	padding-top: 2em;
 }
 .field_content {
 	top: 12em;
@@ -2564,7 +2558,7 @@ i.user {
 @media (max-width:375px){
 .banner {
 	min-height:200px;
-	padding-top:0em;
+	padding-top:1em;
 }
 .header_top_left {
   float: none;
